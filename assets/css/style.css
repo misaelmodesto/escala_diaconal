@@ -1,0 +1,39 @@
+/* assets/css/style.css */
+
+:root {
+    --ipb-blue: #0A3663; /* Azul Oficial IPB */
+    --ipb-gold: #C89D3C; /* Dourado/Amarelo */
+    --ipb-light-blue: #EBF1F6;
+    --ipb-text: #333333;
+}
+
+body {
+    background-color: var(--ipb-light-blue);
+    color: var(--ipb-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-ipb {
+    background-color: var(--ipb-blue) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-ipb .navbar-brand, 
+.navbar-ipb .nav-link {
+    color: #ffffff;
+}
+
+.btn-ipb-primary {
+    background-color: var(--ipb-blue);
+    color: #ffffff;
+    border: none;
+}
+
+.btn-ipb-primary:hover {
+    background-color: #072645;
+    color: #ffffff;
+}
+
+.card-ipb {
+    border-top: 4px solid var(--ipb-gold);
+}

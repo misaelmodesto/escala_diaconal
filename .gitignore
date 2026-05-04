@@ -1,0 +1,3 @@
+# Ignorar credenciais e configurações locais
+config/config.local.php
+.env
